@@ -2,6 +2,11 @@
 
 The Data Gateway service is a central component of REEF that handles data ingestion from post op log files.
 
+[![GitHub issues](https://img.shields.io/github/issues/munzz11/data-gateway)](https://github.com/munzz11/data-gateway/issues)
+[![Docker Pulls](https://img.shields.io/docker/pulls/munzz11/reef-data-gateway)](https://hub.docker.com/r/munzz11/reef-data-gateway)
+[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/munzz11/reef-data-gateway)](https://hub.docker.com/r/munzz11/reef-data-gateway)
+[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/munzz11/reef-data-gateway)](https://hub.docker.com/r/munzz11/reef-data-gateway)
+
 ## Data Flow
 
 1. Platforms can send data to the Data Gateway via HTTP POST requests or the archive-proccessor can scan and sublit archived data
